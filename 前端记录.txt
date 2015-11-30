@@ -1,0 +1,60 @@
+﻿
+
+---------------------HTML强调-------------------------
+
+
+0.<table> 标签 包含 table、tbody、tr、th、td 
+
+表格样式   
+<style type="text/css">
+table tr td,th{border:1px solid #000;}
+</style>
+
+表格摘要 ：<table summary="表格简介文本">
+
+表格标题 ：<caption>表格标题文本</caption>
+
+
+
+1. <div>标签用于划分网页每部分信息
+
+   用法<div  id="版块名称">…</div>
+
+2. <em>和<strong>标签是为了强调一段话中的关键字时使用，它们的语义是强调。
+
+3. <span>标签是没有语义的，它的作用就是为了设置单独的样式用的。
+
+用法：	<style>
+	span{
+    		color:blue;
+	}
+	</style>
+	<span></span>
+
+4.<q> 引用标签
+
+5.<blockquote>长文本的引用
+
+6.&nbsp;    HTML中的空格标签
+
+7.<address>地址标签
+
+8.<code>代码标签
+
+9.<pre>保留原有格式标签
+
+10.<ul> ... <li>无序列表信息
+
+11.<ol> ... <li>有序列表信息          
+  
+12.<a>连接标签
+
+   在新窗口打开的连接地址<a href="目标网址" target="_blank">click here!</a>
+
+   <a>邮件标签   http://www.imooc.com/code/317
+
+
+13.<img>图片标签
+
+<img src="图片地址" alt="下载失败时的替换文本" title = "提示文本">
+

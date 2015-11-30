@@ -1,0 +1,23 @@
+﻿1.  	color 			颜色
+
+	font-size :6px		字大小
+
+	border:1px solid red 	边框宽度1PX,颜色红色
+
+	font-family:"宋体"    	设置字体
+
+	font-weight:bold	设置粗体	
+
+	font-style:italic;	设置斜体字体
+
+	text-decoration:underline;	下划线
+
+	text-decoration:line-through;	删除线
+
+	text-indent:2em;		段落缩进
+
+	line-height:2em			行高为2cm
+
+	letter-spacing:2px		文字间隔
+
+	text-align:center;		居中对齐
