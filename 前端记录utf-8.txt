@@ -50,3 +50,11 @@ table tr td,th{border:1px solid #000;}
 12.<a>连接标签
 
    在新窗口打开的连接地址<a href="目标网址" target="_blank">click here!</a>
+
+   <a>邮件标签   http://www.imooc.com/code/317
+
+
+13.<img>图片标签
+
+<img src="图片地址" alt="下载失败时的替换文本" title = "提示文本">
+

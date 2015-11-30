@@ -1,0 +1,58 @@
+<form   method="传送方式"   action="服务器文件">
+
+一行文本 <input type="text/password" name="名称" value="文本" />
+
+
+大段文字 <textarea  rows="行数" cols="列数">文本</textarea>
+
+
+
+--------------------------选择框-------------------------------------------
+
+1、type:
+
+   当 type="radio" 时，控件为单选框
+
+   当 type="checkbox" 时，控件为复选框
+
+2、value：提交数据到服务器的值（后台程序PHP使用）
+
+3、name：为控件命名，以备后台程序 ASP、PHP 使用
+
+4、checked：当设置 checked="checked" 时，该选项被默认选中
+
+<input   type="radio/checkbox"  value="值" name="名称" checked="checked"/>
+
+注意，单选时候name要一样，不然不是单选
+
+
+—————————————————下拉框————————————————
+
+<select>
+      <option value="看书">看书</option>
+      <option value="旅游">旅游</option>
+      <option value="运动">运动</option>
+      <option value="购物">购物</option>
+</select>
+
+
+地址：http://www.imooc.com/code/498
+
+
+—————————————————提交/重置————————————————
+
+<input   type="submit"   value="提交">
+
+<input type="reset" value="重置">
+
+
+
+—————————————————label标签—————————————————
+
+如果你在 label 标签内点击文本，就会触发此控件。就是说，当用户单击选中该label标
+签时，浏览器就会自动将焦点转到和标签相关的表单控件上
+
+
+<label for="控件id名称">
+
+连接地址： http://www.imooc.com/code/3319
