@@ -2,13 +2,14 @@
 
 	font-size :6px		字大小
 
-	border:1px solid red 	边框宽度1PX,颜色红色
-
 	font-family:"宋体"    	设置字体
 
 	font-weight:bold	设置粗体	
 
 	font-style:italic;	设置斜体字体
+
+	border:1px solid red 	边框宽度1PX,颜色红色
+
 
 	text-decoration:underline;	下划线
 
@@ -28,6 +29,10 @@
 	display:[block]、 [inline]、  [inline-block]
 		块状元素	  内联元素     内联块状元素
 
+	
+
+	text-align:center;		居中显示
+
 
 
 
@@ -36,6 +41,19 @@
 p{color:rgb(133,45,200);}
 
 p{color:#00ffff;}
+
+
+
+------------------------CSS布局———————————————
+
+水平居中：
+   
+    float:left;
+    position:relative;
+    left:50%
+
+水平居中
+    vertical-align：middle
 
 
 		
