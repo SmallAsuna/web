@@ -1,0 +1,101 @@
+
+1.边框
+
+div{ border:2px  solid  red; }
+
+上面是 border 代码的缩写形式，可以分开写：
+
+div{
+    border-width:2px;
+    border-style:solid;【dashed（虚线）| dotted（点线）| solid（实线）】
+    border-color:red;
+    }
+
+
+    div{border-bottom:1px solid red;}
+	       [top、bottom、left、right 分别代表上下左右]
+
+
+2.盒装模型详见     http://www.imooc.com/code/2054
+
+	div{
+   		 width:200px;
+   		 padding:20px;
+   		 border:1px solid red;
+   		 margin:10px;    
+  	    }
+
+
+
+3.盒子模型 填充(内边距)
+
+	  元素内容与边框之间是可以设置距离的，称之为“填充”。
+	  填充也可分为上、右、下、左(顺时针)。如下代码：
+	  div{padding:20px 10px 15px 30px;}
+
+
+4.盒子模型    （外边距）
+
+	  div{margin:20px 10px 15px 30px;}
+
+
+
+
+----------------------CSS布局模型----------------------------
+
+
+在网页中，元素有三种布局模型：
+1、流动模型（Flow）
+2、浮动模型 (Float)
+3、层模型（Layer）
+
+
+流动模型：
+
+流动（Flow）是默认的网页布局模式。
+
+浮动模型  
+div{
+    width:200px;
+    height:200px;
+    border:2px red solid;
+    float:left;
+}
+块状元素这么霸道都是独占一行，
+如果现在我们可以让两个块状元素并排显示，
+
+
+
+----------------------层模型------------------------------------
+
+1、绝对定位(position: absolute)
+
+2、相对定位(position: relative)
+
+3、固定定位(position: fixed)
+   DIV框图不睡着滚动条的变化而变化
+
+
+--------------------------缩写-----------------------------------
+
+关于颜色的css样式也是可以缩写的，
+当你设置的颜色是16进制的色彩值时，如果每两位的值相同，可以缩写一半。
+
+
+1、如果top、right、bottom、left的值相同，如下面代码：
+
+margin:10px 10px 10px 10px;
+可缩写为：
+
+margin:10px;
+2、如果top和bottom值相同、left和 right的值相同，如下面代码：
+
+margin:10px 20px 10px 20px;
+可缩写为：
+
+margin:10px 20px;
+
+字体缩写详见:  http://www.imooc.com/code/2094
+
+body{font:12px/1.5em  "宋体",sans-serif;}
+--------------------------

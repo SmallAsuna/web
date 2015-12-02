@@ -21,3 +21,21 @@
 	letter-spacing:2px		文字间隔
 
 	text-align:center;		居中对齐
+
+	
+	background			块状元素背景颜色
+
+	display:[block]、 [inline]、  [inline-block]
+		块状元素	  内联元素     内联块状元素
+
+
+
+
+------------------------颜色--------------------------------
+
+p{color:rgb(133,45,200);}
+
+p{color:#00ffff;}
+
+
+		
