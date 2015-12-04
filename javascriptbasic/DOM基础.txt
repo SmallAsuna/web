@@ -1,0 +1,5 @@
+﻿
+
+
+1.	获取ID元素：
+	document.getElementById(“id”) 

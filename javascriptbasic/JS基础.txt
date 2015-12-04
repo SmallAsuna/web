@@ -1,0 +1,26 @@
+﻿
+  
+
+
+1. 	JavaScript 
+	<script type="text/javascript">  </script>
+
+
+2.	引用外部JS文件
+	<script src="script.js"></script>
+
+
+3.	JS放在<head>部分
+	最常用的方式是在页面中head部分放置<script>元素，
+	浏览器解析head部分就会执行这个代码，然后才解析页面的其余部分。
+	放在<body>部分
+	JavaScript代码在网页读取到该语句的时候就会执行。
+	详见：http://www.imooc.com/code/2311
+
+
+
+4.	Javascript 注视和断句和C语言类似	
+
+
+
+5.	变量的命名方式 	【var 变量名】

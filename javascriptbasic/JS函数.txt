@@ -1,0 +1,32 @@
+﻿
+
+1.	document.write(str);	在文本框中写入文本
+
+2.	alert(str);		弹出对话框
+
+
+3.	confirm	(str)		消息选择框
+	var [变量名]=confirm()
+    	if([变量名]==true)  {    }
+ 
+
+
+
+
+4.	prompt(str1, str2);	消息对话框
+	str1: 要显示在消息对话框中的文本，不可修改
+	str2：文本框中的内容，可以修改	
+
+5.	打开窗口
+	window.open([URL], [窗口名称], [参数字符串])
+
+
+	"_top"、"_blank"、"_selft"具有特殊意义的名称。
+       _blank：在新窗口显示目标网页
+       _self：在当前窗口显示目标网页
+       _top：框架网页中在上部窗口中显示目标网页
+
+
+
+6	关闭窗口      [关闭对象名].close()
+
