@@ -3,3 +3,22 @@
 
 1.	获取ID元素：
 	document.getElementById(“id”) 
+
+
+2.	获取标签属性：
+	document.getElementById("id")
+
+	修改元素内容：
+	用法 var 【变量名】=document.getElementById("id");
+	修改 mychar.innerHTML="Hello world" ;
+
+	修改CSS样式表：
+	【变量名】.style.color="red";
+
+
+3.	显示/隐藏属性
+	【元素对象object】.style.display = 【none|block】隐藏、显示
+
+
+4.	修改CSS类名属性
+	object.className = classname
