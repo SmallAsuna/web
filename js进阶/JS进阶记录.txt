@@ -1,0 +1,37 @@
+﻿1.	算术操作符 → 比较操作符 → 逻辑操作符 → "="赋值符号
+
+2. 	var myarr=new Array(); //定义数组
+
+3.	赋值语句
+	var myarray = new Array(66,80,90,77,59);
+
+4.	新增元素值
+	myarray[5]=【数值】
+
+
+5.	获得数组长度
+	【数组名】.length;
+
+
+5.	二维数组赋值和定义
+	array=[	 [1,2,3],[1,2,3],[1,2,3]  ]
+
+
+6.	什么是事件
+	http://www.imooc.com/code/635
+
+
+7.	鼠标点击事件	onclick="add2()"
+	 <input name="button" type="button" value="点击提交" onclick="add2()"/>
+
+
+8.	鼠标经过事件    onmouseover
+	
+
+9.	鼠标离开事件 	onmouseout
+
+
+8.	内容选中事件	onselect
+
+
+9.	卸载事件（onunload）当关闭网站时候弹出。

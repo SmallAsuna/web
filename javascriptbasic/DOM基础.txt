@@ -1,4 +1,5 @@
-﻿
+﻿0.	按键事件定义
+	<input type="button" value="改变颜色" onclick="hidetext()" >
 
 
 1.	获取ID元素：
@@ -22,3 +23,6 @@
 
 4.	修改CSS类名属性
 	object.className = classname
+
+
+5.	清除所有CSS样式obj.removeAttribute("style");
