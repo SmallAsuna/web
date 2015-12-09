@@ -1,0 +1,8 @@
+﻿
+---------windows对象——————————————
+
+目标地址：http://www.imooc.com/code/1146
+
+
+
+setInterval(代码,交互时间);          JS计时器

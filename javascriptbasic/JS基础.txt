@@ -1,8 +1,4 @@
-﻿
-  
-
-
-1. 	JavaScript 
+﻿1. 	JavaScript 
 	<script type="text/javascript">  </script>
 
 
