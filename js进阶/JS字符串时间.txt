@@ -60,3 +60,4 @@
 	arrayObject.concat(array1,array2,...,arrayN)
 
 	reverse()	Êı×éµ¹ĞòÅÅÁĞ
+

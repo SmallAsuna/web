@@ -4,5 +4,26 @@
 目标地址：http://www.imooc.com/code/1146
 
 
-
 setInterval(代码,交互时间);          JS计时器
+
+
+window.history.back();		     返回前一个浏览页面
+
+
+
+—————Location对象——————————————
+设置窗体的URL，并且可以用于解析URL
+
+location.[属性|方法]
+
+
+—————Navigator对象——————————————
+
+Navigator 对象包含有关浏览器的信息，通常用于检测浏览器与操作系统的版本。
+
+
+
+—————screen对象————————————————
+
+1.	screen.height 返回屏幕分辨率的高度
+2.	screen.width  返回屏幕分辨率的宽
